@@ -4,7 +4,7 @@
 
 
 [Script]
-http-request ^https:\/\/api\.getmoshi\.app\/api\/v1\/licenses\/(?:me|activate|[^\/]+\/devices)(?:[\/?#]|$) script-path=https://raw.githubusercontent.com/ouones/QuanxBackup/main/Rewrite%28Yu9191%29/moshi/moshi-pro.js, requires-body=false, timeout=30, tag=moshi-pro
+http-request ^https:\/\/api\.getmoshi\.app\/api\/v1\/licenses\/(?:me|activate|[^\/]+\/devices)(?:[\/?#]|$) script-path=https://raw.githubusercontent.com/ouones/QuanxBackup/refs/heads/main/Rewrite(Yu9191)/moshi/moshi-pro.js, requires-body=false, timeout=30, tag=moshi-pro
 
 [MITM]
 hostname = api.getmoshi.app
